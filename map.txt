@@ -1,0 +1,13 @@
+
+
+index.js
+|--- App
+    |--- Video
+        |--- Video Frame
+        |--- Title + Subtitle
+        |--- Like / Dislike Buttons
+        |--- Like / Dislike Buttons
+        |--- Hide Comments
+        |--- Comments
+            |--- Comment: Name, Comment
+            
