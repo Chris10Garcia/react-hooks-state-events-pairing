@@ -2,12 +2,12 @@
 
 index.js
 |--- App
-    |--- Video
+    |--- Video (show / unshow comments)
         |--- Video Frame
-        |--- Title + Subtitle
-        |--- Like / Dislike Buttons
-        |--- Like / Dislike Buttons
-        |--- Hide Comments
-        |--- Comments
+        |--- Title + Subtitle (upvotes, downvotes)
+            |--- Like / Dislike Buttons [onClick-> change votes]
+            |--- Like / Dislike Buttons [onClick-> change votes]
+        |--- Hide Comments (show / unshow comments) [onClick -> shows / unshows comments]
+        |--- Comments   (show / unshow comments) 
             |--- Comment: Name, Comment
             
