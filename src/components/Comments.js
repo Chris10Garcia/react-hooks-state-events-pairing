@@ -1,13 +1,16 @@
 import React from "react"
+import Button from "./Button"
 import Comment from "./Comment"
 
-function Comments ({comments}){
-    console.log(comments.length)
-
+function Comments ({comments, voteData, handleVotes}){
 
     const commentsJSX = comments.map(obj => {
         return (
-            <Comment key = {obj.key} user = {obj.user} comment = {obj.comment} />
+            <Comment key = {obj.id} user = {obj.user} comment = {obj.comment}>
+                <Button voteData = {voteData} handleVotes = {handleVotes} thumbEmjoi = {"👍"} name= {"commentUp"} />
+                <Button voteData = {voteData} handleVotes = {handleVotes} thumbEmjoi = {"👎"} name= {"commentDown"}/>
+            </Comment>
+            
         )
     })
 
